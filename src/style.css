@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+  	padding: 0;
+}
+html,
+body,
+#root,
+.wrapper {
+	height: 100%;
+  font-family: sans-serif;
+}
+
+.main-header {
+	margin-bottom: 5px;
+	padding: 15px;
+	color: #3CB371;
+	text-align: left;
+	text-shadow: 1px 1px 2px black, 0 0 1em #000;
+	height: 8%;
+	min-height: 70px;
+	background: #90EE90;
+	border-bottom: 4px solid #3CB371;
+}
+
+.logo-img {
+	width: 70px;
+	margin: 5px 15px 0 15px;
+	float: left;
+}
+
+.main-menu {
+	width: 160px;
+	height: 98%;
+	margin-right: 5px;
+	border: 3px solid #3CB371;
+	padding: 3px;
+	float: left;
+}
+
+.footer {
+  height: 4%;
+  min-height: 10px;
+  float: bottom;
+  background: #90EE90;
+  margin-top: 5px;
+  border-top: 4px solid #3CB371;
+}
+
+.content {
+	height: 83%;
+}
+
+.workspace {
+	height: 98%;
+	width: 85%;
+	margin-left: 175px;
+	border: 3px solid #3CB371;
+	padding: 3px;
+	position: absolute;
+}
+
+.menu-header {
+	color: #3CB371;
+	height: 30px;
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 1em #000;
+	background: #90EE90;
+	border-bottom: 2px solid #3CB371;
+}
+
+.btn-general {
+	height: 20px;
+	width: 100%;
+	margin-top: 5px;
+	display: inline-block;
+	padding: 5px 0;
+	color: #006400;
+	text-align: center;
+	background: linear-gradient(to top, #006400 0%, #006400 10%, #3CB371 12%, #90EE90 100%);
+	border-radius: 3px;
+	font-weight: bold;
+	cursor: pointer;
+
+	transition:0.3s;
+}
+
+.btn-general:hover {
+	background: linear-gradient(to top, #006400 0%, #006400 5%, #3CB371 6%, #98FB98 100%);
+}
+
+.sub-close ul {
+	display: none;
+}
+
+.sub-menu {
+	margin: 10px 0 5px 0;
+	list-style: none;
+}
+
+.sub-menu li {
+	border-bottom: 1px solid #3CB371;
+	text-align: left;
+	margin: 10px;
+}
+
+.menu-list {
+	list-style:none;
+	display: inline-block;
+}
+
+.menu-btn {
+	width: 100px !important;
+	float:left;
+	height: 30px;
+	margin: 0 2px 0 2px;
+}
+
+.clear {
+	clear:both;
+}
+
+.directory-page {
+	width: 100%;
+	height: 100%;
+}
+
+.directory-list {
+	position: relative;
+	border-collapse: collapse;
+	margin-top: 7px;
+	width: 100%;
+	height: 100%;
+
+}
+
+.directory-list th, .directory-list td {
+	border: 1px solid #006400;
+	padding: 3px;
+}
+
+.directory-header th {
+	background: #90EE90;
+}
+
+.row-number {
+	text-align: center;
+}
